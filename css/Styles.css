@@ -1,0 +1,117 @@
+/* 
+Student Name: Jenil Patel
+File Name: styles.css
+Date: 10-13-2026
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #417589;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+/* Style rules for header content */
+header {
+	text-align: center;
+	color: #e3eef2;
+	padding: 1%;
+}
+
+header h1 {
+	font-size: 3em;
+	font-family: Garamond, Times, serif;
+}
+
+header h3 {
+	font-style: italic;
+	font-size: 1.25em;
+	font-family: Futura, Arial, sans-serif;
+}
+
+/* Style rules for navigation area */
+nav {
+	background-color: #213b45;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.5em;
+	font-family; Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+	padding: 2%;
+	background-color: #e3eef2;
+	font-family: Georgia, Times, serif;
+}
+
+main h2 {
+	color: #213B45;
+}
+
+main p {
+	font-size: 1.25em;
+	color: #0F252E;
+}
+
+main a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #417589;
+}
+
+main ul {
+	list-style-type: square;
+	font-size: 1.15em;
+}
+
+.action {
+	font-size: 1.25em;
+	color: #213b45;
+	font-weight: bold;
+	font-variant-caps: all-small-caps; /* used to set text to small caps */
+}
+
+#deep a {
+	color: #213b45;
+}
+
+/* Style rules for footer content */
+footer {
+	text-align: center;
+	font-size: 0.75em;
+	color: #e3eef2;
+	font-weight: bold;
+}
+
+footer a {
+	color: #e3eef2;
+	text-decoration: none;
+}
